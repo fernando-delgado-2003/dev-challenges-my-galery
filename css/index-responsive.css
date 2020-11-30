@@ -1,0 +1,117 @@
+@media(max-width: 950px){
+    .profile{
+        width: 45%;
+    }
+    .gallery{
+        width: 85%;
+    }
+}
+@media(max-width: 800px){
+    .profile{
+        width: 55%;
+    }
+    .gallery{
+        height: 700px;
+    }
+}
+@media(max-width: 648px){
+    .profile{
+        width: 65%;
+    }
+    .profile .profile-inf .profile-picture {
+        width: 140px;
+        height: 140px;
+    }
+
+}
+@media(max-width: 600px){
+    .profile .profile-inf h1 {
+        font-size: 22px;
+    }
+    .profile > .red > div > p:nth-child(1) {
+        font-size: 16px;
+    }
+        .gallery{
+        height: 650px;
+    }
+}
+@media(max-width: 546px){
+    .profile > .red > div {
+        min-width: 90px;
+
+    }
+    .gallery {
+        height: 555px;
+    }
+}
+@media(max-width: 495px){
+    .profile {
+        width: 75%;
+    }
+    .gallery{
+    width: 88%;
+    height: 500px;
+}
+}
+@media(max-width: 435px){
+    .profile {
+        width: 75%;
+    }
+    .profile .profile-inf .profile-picture {
+        width: 125px;
+        height: 125px;
+    }
+    .profile > .red > div {
+        min-width: 78px;
+    }
+    .profile > .red > div > p:nth-child(1) {
+        font-size: 15px;
+    }
+    .gallery{
+    width: 88%;
+    height: 500px;
+    }
+}
+@media(max-width: 386px){
+    .profile {
+        width: 80%;
+    }
+    .profile > .red > div {
+        margin-right: 20px;
+    }
+    .gallery{
+        width: 90%;
+        height: 450px;
+    }
+}
+@media(max-width: 343px){
+    .profile {
+        width: 81%;
+    }
+    .profile > .red > div {
+        margin-right: 18px;
+    }
+    footer {
+        font-size: 13px;
+    }
+}
+@media(max-width: 332px){
+    .profile {
+        width: 81%;
+    }
+    .profile > .red > div {
+        margin-right: 18px;
+    }
+    .profile > .red > div > p:nth-child(1) {
+        font-size: 14px;
+    }
+    .profile > .red > div > p:nth-child(2) {
+        font-size: 13px;
+    }
+    .profile > .red > div {
+        min-width: 73px;
+    }
+    footer {
+        font-size: 12px;
+    }
+}
